@@ -38,13 +38,13 @@ Tests written using mocha + schedule.js.
 On the client:
 
 ```html
-<script src="node_modules/compendia-js/bundle.min.js"></script>
+<script src="node_modules/compendiajs/bundle.min.js"></script>
 ```
 
 On the server:
 
 ```js
-var qreditjs = require("compendia-js");
+var compendiajs = require("compendiajs");
 ```
 
 ### Generating a key pair
