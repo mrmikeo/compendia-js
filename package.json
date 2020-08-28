@@ -1,7 +1,7 @@
 {
-  "name": "qreditjs",
+  "name": "compendiajs",
   "version": "0.2.1",
-  "description": "JavaScript library for sending Ark transactions from the client or server",
+  "description": "JavaScript library for sending BIND transactions from the client or server",
   "main": "index.js",
   "engines": {
     "node": ">=4"
@@ -12,7 +12,7 @@
     "build:docs": "jsdoc -c jsdoc.json",
     "clean:docs": "shx rm -r ./docs",
     "lint": "eslint .",
-    "test": "mocha test/qreditjs.js test/*/*"
+    "test": "mocha test/compendiajs.js test/*/*"
   },
   "directories": {
     "doc": "./doc",
@@ -21,9 +21,9 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/qredit/qredit-js.git"
+    "url": "git+https://github.com/mrmikeo/compendia-js.git"
   },
-  "homepage": "https://github.com/qredit/qredit-js",
+  "homepage": "https://github.com/mrmikeo/compendia-js",
   "keywords": [
     "api",
     "qredit",
@@ -34,7 +34,7 @@
     "server",
     "transaction"
   ],
-  "bugs": "https://github.com/qredit/qredit-js/issues",
+  "bugs": "https://github.com/mrmikeo/compendia-js/issues",
   "contributors": [
     "FX Thoorens <fx@ark.io>",
     "Guillaume Verbal <doweig@ark.io>",
