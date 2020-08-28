@@ -1,12 +1,12 @@
 
-# Qredit JS
+# Compendia JS
 
 Qredi JS is a JavaScript library for sending Qredit transactions. It's main benefit is that it does not require a locally installed Qredit node, and instead utilizes the existing peers on the network. It can be used from the client as a [browserify](http://browserify.org/) compiled module, or on the server as a standard Node.js module.
 
 ## Installation
 
 ```
-npm install --save https://github.com/Qredit/qredit-js
+npm install --save https://github.com/mrmikeo/compendia-js
 ```
 
 ## Building for Browser Use (Not needed for Nodejs)
@@ -38,13 +38,13 @@ Tests written using mocha + schedule.js.
 On the client:
 
 ```html
-<script src="node_modules/qreditjs/bundle.min.js"></script>
+<script src="node_modules/compendia-js/bundle.min.js"></script>
 ```
 
 On the server:
 
 ```js
-var qreditjs = require("qreditjs");
+var qreditjs = require("compendia-js");
 ```
 
 ### Generating a key pair
@@ -52,7 +52,7 @@ var qreditjs = require("qreditjs");
 To generate a public / private key pair from a given passphrase:
 
 ```js
-var keys = qreditjs.crypto.getKeys("passphrase");
+var keys = compendiajs.crypto.getKeys("passphrase");
 ```
 
 Returning:
@@ -81,7 +81,7 @@ Returning:
 To generate a unique Qredit address from a given public key:
 
 ```js
-var address = qreditjs.crypto.getAddress("5d036a858ce89f844491762eb89e2bfbd50a4a0a0da658e4b2628b25b117ae09");
+var address = compendiajs.crypto.getAddress("5d036a858ce89f844491762eb89e2bfbd50a4a0a0da658e4b2628b25b117ae09");
 ```
 
 Returning:
